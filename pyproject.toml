@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xdan-jev-plugin"
+version = "0.1.0"
+description = "Verified single-backbone JEV research deployment plugin"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+dependencies = ["huggingface-hub>=1.0,<2"]
+
+[project.optional-dependencies]
+serve = ["torch==2.8.0", "transformers==5.16.1", "safetensors==0.8.0", "accelerate>=1.0,<2"]
+dev = ["pytest>=8", "ruff==0.13.3", "build"]
+
+[project.scripts]
+xdan-jev = "xdan_jev_plugin.cli:main"
+
+[tool.setuptools.package-data]
+xdan_jev_plugin = ["assets/*.tgz"]
+
+[tool.ruff]
+line-length = 88

@@ -1,0 +1,8 @@
+xDAN JEV Plugin research preview, 2026.
+Standalone packaging and research runtime derived from xDAN JEV work on ms-swift.
+Upstream ms-swift: https://github.com/modelscope/ms-swift (Apache-2.0).
+Qwen3.5-9B: Copyright 2026 Alibaba Cloud (Apache-2.0).
+The exact upstream model LICENSE is retained in the bundled research overlay.
+Original Qwen weights are obtained from the official pinned Hugging Face revision.
+Modified/additional components: deployment CLI, semantic routing, early-exit runtime,
+candidate adapter and release verification. No claim of endorsement by upstreams.

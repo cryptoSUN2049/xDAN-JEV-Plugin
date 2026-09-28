@@ -1,0 +1,11 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Reply with the single word hello."
+    }
+  ],
+  "mode": "llm",
+  "effort": "max",
+  "max_tokens": 32
+}

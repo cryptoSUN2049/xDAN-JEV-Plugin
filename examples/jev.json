@@ -1,0 +1,11 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Shared state:\nWater under standard atmospheric pressure.\n\n{\"criteria\": [{\"description\": \"Yes, water freezes at zero degrees Celsius under standard pressure.\", \"label\": \"A\"}, {\"description\": \"No, water does not freeze at zero degrees Celsius under standard pressure.\", \"label\": \"B\"}], \"instructions\": \"Select the true statement.\", \"primitive\": \"choice\"}\nReturn only the selected letter: A, B.\nAnswer:"
+    }
+  ],
+  "mode": "jev",
+  "effort": "max",
+  "max_tokens": 32
+}

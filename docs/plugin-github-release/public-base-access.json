@@ -1,0 +1,58 @@
+{
+  "anonymous": true,
+  "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "assets": [
+    {
+      "file": "chat_template.jinja",
+      "status": 200
+    },
+    {
+      "file": "config.json",
+      "status": 200
+    },
+    {
+      "file": "merges.txt",
+      "status": 200
+    },
+    {
+      "file": "model.safetensors-00001-of-00004.safetensors",
+      "status": 200
+    },
+    {
+      "file": "model.safetensors-00002-of-00004.safetensors",
+      "status": 200
+    },
+    {
+      "file": "model.safetensors-00003-of-00004.safetensors",
+      "status": 200
+    },
+    {
+      "file": "model.safetensors-00004-of-00004.safetensors",
+      "status": 200
+    },
+    {
+      "file": "model.safetensors.index.json",
+      "status": 200
+    },
+    {
+      "file": "preprocessor_config.json",
+      "status": 200
+    },
+    {
+      "file": "tokenizer.json",
+      "status": 200
+    },
+    {
+      "file": "tokenizer_config.json",
+      "status": 200
+    },
+    {
+      "file": "video_preprocessor_config.json",
+      "status": 200
+    },
+    {
+      "file": "vocab.json",
+      "status": 200
+    }
+  ]
+}
