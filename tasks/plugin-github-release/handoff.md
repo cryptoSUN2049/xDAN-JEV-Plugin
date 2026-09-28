@@ -47,3 +47,7 @@
 3. Install .[dev], run ruff check/format and pytest coverage.
 4. Use smoke_gpu.py only against a ready GPU service; do not assume CI provides GPU tests.
 5. Preserve model/manifest identity or explicitly produce a separately versioned bundle.
+
+## Publication verified
+- v0.1.0 prerelease at commit2441547; release CI success. Anonymous attached wheel download, SHA256 and clean-env installation passed. See publication-receipt.json.
+- Source line counts at handoff: bundle.py 111, cli.py 85, test_bundle.py 73, test_cli.py 95, smoke_gpu.py 86. Binary overlay size 5,273,535 bytes.

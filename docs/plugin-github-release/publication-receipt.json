@@ -1,0 +1,18 @@
+{
+  "release": "https://github.com/cryptoSUN2049/xDAN-JEV-Plugin/releases/tag/v0.1.0",
+  "release_commit": "2441547ed53de90b6928190803a99b2d65d9de20",
+  "prerelease": true,
+  "anonymous_clone_install": true,
+  "anonymous_release_wheel_install": true,
+  "wheel_sha256": "2c2b8e355d3b5ad8fb4fd175d470946ca47048ebc6594b7b0a8d7a9fe99c614b",
+  "wheel_bytes": 5284747,
+  "ci": "https://github.com/cryptoSUN2049/xDAN-JEV-Plugin/actions/runs/36440007275",
+  "ci_conclusion": "success",
+  "unit_http_tests_passed": 11,
+  "package_statement_coverage": 92.48,
+  "gpu_http_calls_passed": 15,
+  "verified_model_assets": 46,
+  "large_base_cold_download_repeated": false,
+  "quality_approved": false,
+  "native_vllm_supported": false
+}

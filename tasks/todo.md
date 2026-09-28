@@ -7,7 +7,7 @@
 - [x] Public HF access for all 13 files; actual anonymous download/hash of 3 small base files.
 - [x] GPU install and full 46-asset assembly/hash verification using existing pinned base.
 - [x] Plugin-started GPU server and all five efforts / three modes smoke verification.
-- [ ] Tagged prerelease, final CI and evidence/handoff.
+- [x] Tagged prerelease v0.1.0, release CI success, anonymous wheel download/hash/install and evidence/handoff.
 
 ## Review
 Publication is software engineering completion only. Head quality fails 182/500 vs 327/500 original LM on exposed regression. Natural task recovery, native vLLM, independent quality/retention remain future model work. No private dataset or monorepo history included. Large weights anonymous accessibility checked; a full cold internet weight download was not repeated.
