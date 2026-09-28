@@ -13,5 +13,5 @@ jobs:
       - run: pip install '.[dev]'
       - run: ruff check .
       - run: ruff format --check .
-      - run: pytest -q
+      - run: pytest --cov=xdan_jev_plugin --cov-fail-under=80 -q
       - run: python -m build

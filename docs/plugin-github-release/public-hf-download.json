@@ -1,0 +1,21 @@
+{
+  "anonymous": true,
+  "downloaded": [
+    {
+      "file": "config.json",
+      "sha256": "d0883072e01861ed0b2d47be3c16c36a8e81c224c7ffaa310c6558fb3f932b05",
+      "verified": true
+    },
+    {
+      "file": "chat_template.jinja",
+      "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "verified": true
+    },
+    {
+      "file": "model.safetensors.index.json",
+      "sha256": "26d3539b516be613f39563617cb9d33b3f83d401298125be392c80cefb8f7fe5",
+      "verified": true
+    }
+  ],
+  "large_weights": "Anonymous HEAD access verified; GPU assembly reused exact SHA-verified existing base, not cold downloaded"
+}

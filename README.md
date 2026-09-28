@@ -15,7 +15,7 @@ pip install .
 xdan-jev --help
 ```
 
-CLI/client: Python 3.10+. GPU serving: Linux CUDA; verified reference environment is Python 3.11, PyTorch 2.8.0+cu128, Transformers 5.16.1 and an RTX PRO 6000. Other GPUs and minimum VRAM have not been benchmarked. Plan for at least 48GB free disk for the HF cache plus assembled ~19GB model, and sufficient GPU memory for weights and input activations. CPU inference is not supported by the server command.
+CLI/client: Python 3.10+. GPU serving: Linux CUDA; verified reference environment is Python 3.12.3, PyTorch 2.8.0+cu128, Transformers 5.16.1 and an RTX PRO 6000. Other GPUs and minimum VRAM have not been benchmarked. Plan for at least 48GB free disk for the HF cache plus assembled ~19GB model, and sufficient GPU memory for weights and input activations. CPU inference is not supported by the server command.
 
 ```bash
 # On the CUDA server; torch wheels must match your CUDA/driver environment.

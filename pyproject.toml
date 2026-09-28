@@ -12,7 +12,7 @@ dependencies = ["huggingface-hub>=1.0,<2"]
 
 [project.optional-dependencies]
 serve = ["torch==2.8.0", "transformers==5.16.1", "safetensors==0.8.0", "accelerate>=1.0,<2"]
-dev = ["pytest>=8", "ruff==0.13.3", "build"]
+dev = ["pytest>=8", "pytest-cov>=5", "ruff==0.13.3", "build"]
 
 [project.scripts]
 xdan-jev = "xdan_jev_plugin.cli:main"
