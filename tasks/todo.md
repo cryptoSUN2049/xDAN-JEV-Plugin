@@ -6,7 +6,7 @@
 - [x] Anonymous public clone, fresh environment install, overlay check.
 - [x] Public HF access for all 13 files; actual anonymous download/hash of 3 small base files.
 - [x] GPU install and full 46-asset assembly/hash verification using existing pinned base.
-- [ ] Plugin-started GPU server and all five efforts / three modes smoke verification.
+- [x] Plugin-started GPU server and all five efforts / three modes smoke verification.
 - [ ] Tagged prerelease, final CI and evidence/handoff.
 
 ## Review

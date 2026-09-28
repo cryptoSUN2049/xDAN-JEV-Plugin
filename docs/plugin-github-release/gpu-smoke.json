@@ -1,0 +1,157 @@
+{
+  "passed": true,
+  "http_calls": 15,
+  "scope": "New synthetic smoke examples, not held-out quality or performance benchmark",
+  "results": [
+    {
+      "mode": "llm",
+      "effort": "minimal",
+      "resolved_depth": 3,
+      "selected_route": "llm",
+      "adapter_executed": false,
+      "prefix_reused": false,
+      "answer": "hello\n",
+      "server_wall_seconds": 0.14125816943123937
+    },
+    {
+      "mode": "llm",
+      "effort": "low",
+      "resolved_depth": 6,
+      "selected_route": "llm",
+      "adapter_executed": false,
+      "prefix_reused": false,
+      "answer": "hello\n",
+      "server_wall_seconds": 0.11984531721100211
+    },
+    {
+      "mode": "llm",
+      "effort": "medium",
+      "resolved_depth": 10,
+      "selected_route": "llm",
+      "adapter_executed": false,
+      "prefix_reused": false,
+      "answer": "hello\n",
+      "server_wall_seconds": 0.1253005461767316
+    },
+    {
+      "mode": "llm",
+      "effort": "high",
+      "resolved_depth": 13,
+      "selected_route": "llm",
+      "adapter_executed": false,
+      "prefix_reused": false,
+      "answer": "hello\n",
+      "server_wall_seconds": 0.12471821112558246
+    },
+    {
+      "mode": "llm",
+      "effort": "max",
+      "resolved_depth": 16,
+      "selected_route": "llm",
+      "adapter_executed": false,
+      "prefix_reused": false,
+      "answer": "hello\n",
+      "server_wall_seconds": 0.11883426830172539
+    },
+    {
+      "mode": "auto",
+      "effort": "minimal",
+      "resolved_depth": 3,
+      "selected_route": "jev",
+      "adapter_executed": true,
+      "prefix_reused": true,
+      "answer": "A",
+      "server_wall_seconds": 0.08677412336692214
+    },
+    {
+      "mode": "auto",
+      "effort": "low",
+      "resolved_depth": 6,
+      "selected_route": "jev",
+      "adapter_executed": true,
+      "prefix_reused": true,
+      "answer": "A",
+      "server_wall_seconds": 0.08000284200534225
+    },
+    {
+      "mode": "auto",
+      "effort": "medium",
+      "resolved_depth": 10,
+      "selected_route": "jev",
+      "adapter_executed": true,
+      "prefix_reused": true,
+      "answer": "A",
+      "server_wall_seconds": 0.07700429577380419
+    },
+    {
+      "mode": "auto",
+      "effort": "high",
+      "resolved_depth": 13,
+      "selected_route": "jev",
+      "adapter_executed": true,
+      "prefix_reused": true,
+      "answer": "A",
+      "server_wall_seconds": 0.07745539024472237
+    },
+    {
+      "mode": "auto",
+      "effort": "max",
+      "resolved_depth": 16,
+      "selected_route": "jev",
+      "adapter_executed": true,
+      "prefix_reused": true,
+      "answer": "A",
+      "server_wall_seconds": 0.0773949190042913
+    },
+    {
+      "mode": "jev",
+      "effort": "minimal",
+      "resolved_depth": 3,
+      "selected_route": "jev",
+      "adapter_executed": true,
+      "prefix_reused": false,
+      "answer": "A",
+      "server_wall_seconds": 0.0702286958694458
+    },
+    {
+      "mode": "jev",
+      "effort": "low",
+      "resolved_depth": 6,
+      "selected_route": "jev",
+      "adapter_executed": true,
+      "prefix_reused": false,
+      "answer": "A",
+      "server_wall_seconds": 0.06966208014637232
+    },
+    {
+      "mode": "jev",
+      "effort": "medium",
+      "resolved_depth": 10,
+      "selected_route": "jev",
+      "adapter_executed": true,
+      "prefix_reused": false,
+      "answer": "A",
+      "server_wall_seconds": 0.06984602194279432
+    },
+    {
+      "mode": "jev",
+      "effort": "high",
+      "resolved_depth": 13,
+      "selected_route": "jev",
+      "adapter_executed": true,
+      "prefix_reused": false,
+      "answer": "A",
+      "server_wall_seconds": 0.06962673971429467
+    },
+    {
+      "mode": "jev",
+      "effort": "max",
+      "resolved_depth": 16,
+      "selected_route": "jev",
+      "adapter_executed": true,
+      "prefix_reused": false,
+      "answer": "A",
+      "server_wall_seconds": 0.07017079507932067
+    }
+  ]
+}

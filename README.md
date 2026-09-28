@@ -37,7 +37,7 @@ Run one preparation process per output directory. Interrupted downloads use the 
 
 ## Make a real request
 
-In a second terminal:
+Wait for the server log to print `"event": "ready"` (initial hash verification and model loading take time). Then, in a second terminal:
 
 ```bash
 source .venv/bin/activate
@@ -63,6 +63,7 @@ Request fields: `messages`, optional `model`, `mode`, `effort`, `route_depth`, `
 - The candidate head quality gate failed (182 vs 327 /500); 75 examples overlap head selection data. No claim of general SFT preservation: the earlier 500-LLM baseline had 311 truncated outputs.
 - Native JEV candidate execution shares the backbone prefix. LLM fallback can recompute the prefix. No deployment-wide latency/speedup claim.
 - No native vLLM integration. Use this Transformers research runtime to reproduce behavior.
+- Plugin-specific GPU test: **15/15 requests passed**, covering three modes × five efforts through the installed CLI. Unit tests: **11 passed, 92.48% package coverage**.
 - Plugin-specific installation/GPU evidence is recorded under `docs/plugin-github-release/`.
 
 ## Development
